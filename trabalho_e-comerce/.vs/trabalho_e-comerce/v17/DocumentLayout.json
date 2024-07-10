@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Produto.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Compra.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Usuario.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,8 +15,28 @@
       "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Anuncio.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\trabalho_e-comerce.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Anuncio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Anuncio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Produto.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Compra.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Produto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Compra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Usuario.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0823B415-B643-4186-B08F-BE1615481584}|trabalho_e-comerce\\trabalho_e-comerce.vcxproj|solutionrelative:trabalho_e-comerce\\Usuario.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +46,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Produto.hpp",
-              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.hpp",
-              "RelativeDocumentMoniker": "trabalho_e-comerce\\Produto.hpp",
-              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.hpp",
-              "RelativeToolTip": "trabalho_e-comerce\\Produto.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-25T14:07:56.582Z",
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Main.cpp",
+              "RelativeDocumentMoniker": "trabalho_e-comerce\\Main.cpp",
+              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Main.cpp",
+              "RelativeToolTip": "trabalho_e-comerce\\Main.cpp",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAAGkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-10T06:08:00.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Compra.hpp",
-              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.hpp",
-              "RelativeDocumentMoniker": "trabalho_e-comerce\\Compra.hpp",
-              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.hpp",
-              "RelativeToolTip": "trabalho_e-comerce\\Compra.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-25T14:03:43.825Z",
+              "DocumentIndex": 7,
+              "Title": "Compra.cpp",
+              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.cpp",
+              "RelativeDocumentMoniker": "trabalho_e-comerce\\Compra.cpp",
+              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.cpp",
+              "RelativeToolTip": "trabalho_e-comerce\\Compra.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-10T06:04:52.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Produto.cpp",
+              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.cpp",
+              "RelativeDocumentMoniker": "trabalho_e-comerce\\Produto.cpp",
+              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.cpp",
+              "RelativeToolTip": "trabalho_e-comerce\\Produto.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-10T06:03:59.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cpp",
+              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Usuario.cpp",
+              "RelativeDocumentMoniker": "trabalho_e-comerce\\Usuario.cpp",
+              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Usuario.cpp",
+              "RelativeToolTip": "trabalho_e-comerce\\Usuario.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-10T05:58:44.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Anuncio.hpp",
-              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Anuncio.hpp",
-              "RelativeDocumentMoniker": "trabalho_e-comerce\\Anuncio.hpp",
-              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Anuncio.hpp",
-              "RelativeToolTip": "trabalho_e-comerce\\Anuncio.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-25T13:59:02.083Z",
+              "Title": "Anuncio.cpp",
+              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Anuncio.cpp",
+              "RelativeDocumentMoniker": "trabalho_e-comerce\\Anuncio.cpp",
+              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Anuncio.cpp",
+              "RelativeToolTip": "trabalho_e-comerce\\Anuncio.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-10T05:57:35.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Usuario.hpp",
               "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Usuario.hpp",
               "RelativeDocumentMoniker": "trabalho_e-comerce\\Usuario.hpp",
               "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Usuario.hpp",
               "RelativeToolTip": "trabalho_e-comerce\\Usuario.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-25T13:46:33.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "trabalho_e-comerce.cpp",
-              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce.cpp",
-              "RelativeDocumentMoniker": "trabalho_e-comerce\\trabalho_e-comerce.cpp",
-              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce.cpp",
-              "RelativeToolTip": "trabalho_e-comerce\\trabalho_e-comerce.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-25T13:38:28.274Z",
+              "DocumentIndex": 5,
+              "Title": "Compra.hpp",
+              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.hpp",
+              "RelativeDocumentMoniker": "trabalho_e-comerce\\Compra.hpp",
+              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Compra.hpp",
+              "RelativeToolTip": "trabalho_e-comerce\\Compra.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-25T14:03:43.825Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Anuncio.hpp",
+              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Anuncio.hpp",
+              "RelativeDocumentMoniker": "trabalho_e-comerce\\Anuncio.hpp",
+              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Anuncio.hpp",
+              "RelativeToolTip": "trabalho_e-comerce\\Anuncio.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-25T13:59:02.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produto.hpp",
+              "DocumentMoniker": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.hpp",
+              "RelativeDocumentMoniker": "trabalho_e-comerce\\Produto.hpp",
+              "ToolTip": "C:\\Users\\sarin\\Documents\\GitHub\\trabalho_e-comerce\\trabalho_e-comerce\\trabalho_e-comerce\\Produto.hpp",
+              "RelativeToolTip": "trabalho_e-comerce\\Produto.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-25T14:07:56.582Z",
+              "EditorCaption": ""
             }
           ]
         }

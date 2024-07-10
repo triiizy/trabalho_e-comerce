@@ -4,9 +4,17 @@
 #include <string>
 
 class Produto {
+public:
+    Produto(std::string nome, double preco);
+
+    std::string getNome();
+
+    double getPreco();
+
 private:
-	std::string nome;
-	std::string categoria;
+    std::string nome;
+    double preco;
 };
 
-#endif // !Produto_h
+
+#endif // Produto_h

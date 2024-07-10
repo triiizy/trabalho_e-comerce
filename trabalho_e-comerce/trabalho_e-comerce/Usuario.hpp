@@ -1,26 +1,33 @@
 #ifndef Usuario_h
 #define Usuario_h
 
+#include <iostream>
 #include <string>
 #include <vector>
 #include "Anuncio.hpp"
-#include "Compra.hpp"
 
 class Usuario {
 public:
-	bool comprar(Anuncio anuncio); // retorna true se for bem sucedida
-	bool favoritar(Anuncio anuncio); // retorna true se for bem sucedida
+    void coletarDados();
+
+    void exibirUsuarios();
+
+    std::string getEmail();
+
+    std::string getSenha();
+
+    void adicionarFavorito(Anuncio& anuncio);
+
+    void adicionarCompra(Anuncio& anuncio);
+
+    void exibirFavoritos();
+
+    void exibirCompras();
 
 private:
-	std::string login;
-	std::string password;
-	std::string email;
-	std::string phone;
-	std::string addr;
-	std::string cpf;
-	std::vector<Anuncio> anuncios;
-	std::vector<Anuncio> favoridos;
-	std::vector<Compra> compras;
+    std::string email, nome, telefone, cpf, senha;
+    std::vector<Anuncio> favoritos;
+    std::vector<Anuncio> compras;
 };
 
-#endif
+#endif // Usuario_h

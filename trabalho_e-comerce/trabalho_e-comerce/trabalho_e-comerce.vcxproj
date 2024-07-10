@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="trabalho_e-comerce.cpp" />
+    <ClCompile Include="Anuncio.cpp" />
+    <ClCompile Include="Compra.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Produto.cpp" />
+    <ClCompile Include="Usuario.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Anuncio.hpp" />

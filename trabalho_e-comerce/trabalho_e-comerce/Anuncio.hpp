@@ -1,17 +1,28 @@
 #ifndef Anuncio_h
 #define Anuncio_h
 
+#include <iostream>
 #include <string>
 
 class Anuncio {
 public:
-	void setPreco(float valor);
+    Anuncio(std::string titulo, std::string descricao, double preco);
+
+    void exibirAnuncio();
+
+    double getPreco();
+
+    double getFrete();
+
+    std::string getTitulo();
 
 private:
-	std::string titulo;
-	float preco;
-	std::string descricao;
+    std::string titulo;
+    std::string descricao;
+    double preco;
+    double frete;
 
+    double calcularFrete();
 };
 
-#endif // ! Anuncio_h
+#endif // Anuncio_h
