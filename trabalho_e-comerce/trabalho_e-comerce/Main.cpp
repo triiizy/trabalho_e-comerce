@@ -14,46 +14,47 @@ void criarAnuncio() {
     std::string titulo, descricao;
     double preco;
 
-    std::cout << "Digite o nome do produto: ";
+    std::cout << "\nDigite o nome do produto: ";
     std::cin >> titulo;
-    std::cout << "Digite a descrição do produto: ";
-    std::cin >> descricao;
-    std::cout << "Digite o preço do produto: ";
+    std::cout << "\nDigite a descrição do produto: ";
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::getline(std::cin, descricao);
+    std::cout << "\nDigite o preço do produto: ";
     std::cin >> preco;
 
     Anuncio anuncio(titulo, descricao, preco);
     anuncios.push_back(anuncio);
 
-    std::cout << "Anuncio criado com sucesso!\n";
+    std::cout << "\nAnuncio criado com sucesso!\n";
 }
 
 void visualizarAnuncio(Anuncio& anuncio, Usuario& usuario) {
     anuncio.exibirAnuncio();
-    std::cout << "Deseja comprar este produto? (s/n): ";
+    std::cout << "\nDeseja comprar este produto? (s/n): ";
     char opcao;
     std::cin >> opcao;
     if (opcao == 's') {
         double valorTotal = anuncio.getPreco() + anuncio.getFrete();
-        std::cout << "Valor total (produto + frete): " << valorTotal << "\n";
-        std::cout << "Deseja confirmar a compra? (s/n): ";
+        std::cout << "\nValor total (produto + frete): " << valorTotal << "\n";
+        std::cout << "\nDeseja confirmar a compra? (s/n): ";
         std::cin >> opcao;
         if (opcao == 's') {
-            std::cout << "Parabéns pela sua compra!\n";
+            std::cout << "\nParabéns pela sua compra!\n";
             usuario.adicionarCompra(anuncio);
         }
         else {
-            std::cout << "Compra cancelada.\n";
+            std::cout << "\nCompra cancelada.\n";
         }
     }
 
-    std::cout << "Deseja favoritar este produto? (s/n): ";
+    std::cout << "\nDeseja favoritar este produto? (s/n): \n";
     std::cin >> opcao;
     if (opcao == 's') {
         usuario.adicionarFavorito(anuncio);
-        std::cout << "Produto adicionado aos favoritos.\n";
+        std::cout << "\nProduto adicionado aos favoritos.\n";
     }
     else {
-        std::cout << "Voltando aos anúncios.\n";
+        std::cout << "\nVoltando aos anúncios.\n";
     }
 }
 
@@ -68,7 +69,7 @@ void anunciosPredefinidos() {
 void areaPrincipal(Usuario& usuario) {
     int opcao;
     do {
-        std::cout << "Bem-vindo à área principal do e-commerce!\n";
+        std::cout << "\n------------Bem-vindo à área principal do e-commerce!-----------------\n";
         std::cout << "Aqui você verá os conteúdos principais.\n";
         std::cout << "1. Visualizar anúncios\n";
         std::cout << "2. Criar um novo anúncio\n";
@@ -101,19 +102,11 @@ void areaPrincipal(Usuario& usuario) {
             usuario.exibirFavoritos();
         }
         else if (opcao != 0) {
-            std::cout << "Opção inválida.\n";
+            std::cout << "\nOpção inválida.\n";
         }
     } while (opcao != 0);
 }
 
-bool verificarLogin(std::string email, std::string senha) {
-    for (auto& usuario : usuarios) {
-        if (usuario.getEmail() == email && usuario.getSenha() == senha) {
-            return true;
-        }
-    }
-    return false;
-}
 
 int main() {
 
@@ -123,8 +116,8 @@ int main() {
 
     anunciosPredefinidos();
     std::cout << "Bem-vindo ao Ecommerce!!!\n" << std::endl;
-    std::cout << "Por favor, realize o seu cadastro caso não tenha um ainda.\n" << std::endl;
-    std::cout << "O usuário possui cadastro?\n\nDigite 's' para ir direto para o Login.\nDigite 'n' para realizar o cadastro: \n";
+    std::cout << "\nPor favor, realize o seu cadastro:\n" << std::endl;
+    std::cout << "\nDigite 'n' para realizar o cadastro: \n";
     std::cin >> codigoCadastro;
 
     if (codigoCadastro == 'n') {
@@ -134,53 +127,7 @@ int main() {
         usuario.exibirUsuarios();
         areaPrincipal(usuario);
     }
-    else if (codigoCadastro == 's') {
-        std::cout << "\nVocê escolheu fazer o login." << std::endl;
-        std::string email, senha;
-        std::cout << "\nDigite o email: ";
-        std::cin >> email;
-        std::cout << "\nDigite a senha: ";
-        std::cin >> senha;
-
-        Usuario* usuarioAtual = nullptr;
-
-        for (auto& usuario : usuarios) {
-            if (usuario.getEmail() == email && usuario.getSenha() == senha) {
-                loginSucesso = true;
-                usuarioAtual = &usuario;
-                break;
-            }
-        }
-
-        if (loginSucesso) {
-            std::cout << "\nLogin realizado com sucesso!\n";
-            areaPrincipal(*usuarioAtual);
-        }
-        else {
-            std::cout << "\nLogin não encontrado.\n";
-            std::cout << "\nDeseja tentar novamente? (s/n): ";
-            std::cin >> tentarNovamente;
-
-            if (tentarNovamente == 's') {
-                main(); 
-            }
-            else {
-                std::cout << "Deseja se cadastrar? (s/n): ";
-                std::cin >> tentarNovamente;
-
-                if (tentarNovamente == 's') {
-                    usuario.coletarDados();
-                    usuarios.push_back(usuario);
-                    std::cout << "Cadastro realizado com sucesso!\n";
-                    usuario.exibirUsuarios();
-                    areaPrincipal(usuario);
-                }
-                else {
-                    std::cout << "Até logo!\n";
-                }
-            }
-        }
-    }
+   
     else {
         std::cout << "Código inválido" << std::endl;
     }

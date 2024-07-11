@@ -1,2 +1,4 @@
 ﻿  Main.cpp
+C:\Users\sarin\Documents\GitHub\trabalho_e-comerce\trabalho_e-comerce\trabalho_e-comerce\Main.cpp(113,10): warning C4101: 'loginSucesso': variável local não referenciada
+C:\Users\sarin\Documents\GitHub\trabalho_e-comerce\trabalho_e-comerce\trabalho_e-comerce\Main.cpp(114,26): warning C4101: 'tentarNovamente': variável local não referenciada
   trabalho_e-comerce.vcxproj -> C:\Users\sarin\Documents\GitHub\trabalho_e-comerce\trabalho_e-comerce\x64\Debug\trabalho_e-comerce.exe
